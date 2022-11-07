@@ -5,6 +5,7 @@
     define a class 'Square'
 """
 
+
 class Square:
     """
         square with private instance attribute: 'size'
