@@ -14,8 +14,8 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """
             Args:
-                width: width of the rectangle
-                height: height of the rectangle
+                width (int): width of the new rectangle
+                height (int): height of the new rectangle
         """
         self.__width = width
         self.__height = height
@@ -58,14 +58,14 @@ class Rectangle:
 
     def area(self):
         """
-            Returns:
+            Return:
                     area of rectangle
         """
         return self.width * self.height
 
     def perimeter(self):
         """
-            Returns:
+            Return:
                     perimeter of rectangle
         """
         if self.width == 0 or self.height == 0:
@@ -74,7 +74,7 @@ class Rectangle:
 
     def __str__(self):
         """
-            Returns:
+            Return:
                     string version of rectangle
         """
         string = ""
@@ -88,7 +88,7 @@ class Rectangle:
 
     def __repr__(self):
         """
-            Returns:
+            Return:
                     string representation of the rectangle(#)
         """
         return "Rectangle({:d}, {:d})".format(self.width, self.height)
