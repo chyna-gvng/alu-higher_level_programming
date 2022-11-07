@@ -7,6 +7,9 @@
 
 
 class Rectangle:
+    """
+        rectangle with private instance attributes: 'width' & 'height'
+    """
 
     def __init__(self, width=0, height=0):
         """
@@ -56,14 +59,14 @@ class Rectangle:
     def area(self):
         """
             Return:
-                area of the rectangle
+                    area of the rectangle
         """
         return (self.__width * self.__height)
 
     def perimeter(self):
         """
             Return:
-                perimeter of the rectangle
+                    perimeter of the rectangle
         """
         if self.__width == 0 or self.__height == 0:
             return (0)
@@ -72,7 +75,7 @@ class Rectangle:
     def __str__(self):
         """
             Return:
-                printable representation of the rectangle(#)
+                    printable representation of the rectangle(#)
         """
         if self.__width == 0 or self.__height == 0:
             return ("")
@@ -87,7 +90,7 @@ class Rectangle:
     def __repr__(self):
         """
             Return:
-                string representation of the rectangle(#)
+                    string representation of the rectangle(#)
         """
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
