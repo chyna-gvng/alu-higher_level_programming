@@ -6,8 +6,8 @@
 # 	  following example (tabulation before -)
 # 	- You must use a with statement
 """
-	import 'urllib' package
-	fetch ://alu-intranet.hbtn.io/status'
+	- import 'urllib' package
+	- fetch ://alu-intranet.hbtn.io/status'
 """
 
 
