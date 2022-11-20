@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-	fetch 'https://intranet.hbtn.io/status'
+    fetch 'https://intranet.hbtn.io/status'
 """
 import urllib.request
 
