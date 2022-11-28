@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 
+# first class 'Base' 
 """
     Define 'Base' class.
 """
