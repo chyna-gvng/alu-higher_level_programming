@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# first class 'Base' 
+# first class 'Base'
 """
     Define 'Base' class.
 """
@@ -75,7 +75,7 @@ class Base:
         """
             Return: class instantied from a dictionary of attributes.
             Args:
-                **dictionary (dict): Key/value pairs of attributes to initialize.
+                (dict): Key/value pairs of attributes to initialize.
         """
         if dictionary and dictionary != {}:
             if cls.__name__ == "Rectangle":
