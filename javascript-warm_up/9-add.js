@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const add = (a, b) => {
   if (isNaN(a) || isNaN(b)) {
-    console.log('Both arguments must be numbers');
+    console.log('NaN');
   } else {
     console.log(a + b);
   }
