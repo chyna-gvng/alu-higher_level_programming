@@ -16,5 +16,3 @@ $('document').ready(function () {
       $('div#hello').html(data.hello);
     });
   }
-
-  
